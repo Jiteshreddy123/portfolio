@@ -12,26 +12,6 @@ An architectural, peaceful, and warm portfolio crafted with pastel serenity, hum
 
 ---
 
-## 🚀 How to View Locally
-
-You can open the website in two ways:
-
-### 1. Direct Browser Launch
-Simply double-click `index.html` in file explorer or right-click and select **Open with > Chrome / Edge / Firefox**.
-
-### 2. Local HTTP Server
-Run any simple local server:
-```bash
-# Using Python
-python -m http.server 3000
-
-# Or using Node.js npx
-npx serve .
-```
-Then visit `http://localhost:3000`.
-
----
-
 ## 📂 Project Architecture
 ```
 Portfolio/
