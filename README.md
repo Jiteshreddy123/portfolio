@@ -2,6 +2,11 @@
 
 An architectural, peaceful, and warm portfolio crafted with pastel serenity, humanistic typography, and progressive disclosure UI/UX principles.
 
+
+👉 **[View Live Portfolio](https://jiteshreddy123.github.io/portfolio/)**
+
+
+
 ---
 
 
