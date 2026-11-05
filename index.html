@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Y. Jitesh Reddy — Software Engineer & Polymathic Builder</title>
+  <meta name="description" content="Portfolio of Y. Jitesh Reddy. Software development with mathematical rigor, AI systems, and human-centered architectural design.">
+
+  <!-- Google Fonts: Newsreader (Editorial Serif) + Plus Jakarta Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow (Gentle pastel gradients) -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-orb glow-sage"></div>
+    <div class="glow-orb glow-peach"></div>
+    <div class="glow-orb glow-linen"></div>
+  </div>
+
+  <!-- Minimal Sticky Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-signature">
+        <span class="brand-monogram">JR</span>
+        <span class="brand-name">Y. Jitesh Reddy</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#work" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#philosophy" class="nav-link">Philosophy</a>
+        <a href="#academics" class="nav-link">Background</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn-glass-nav">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION: Architectural, tranquil, spacious -->
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Engineering software with <span class="italic-serif text-warm">quiet optimism</span>, architectural rigor, and deep <span class="italic-serif text-warm">human care</span>.
+        </h1>
+
+        <p class="hero-lead">
+          I am <strong>Y. Jitesh Reddy</strong>—a software engineer and polymathic thinker synthesizing 
+          type-safe mobile architectures, generative AI coordination systems, and mathematical optimization 
+          to build tools that make human lives noticeably calmer and better organized.
+        </p>
+
+        <!-- Quick Architectural Pillars Summary -->
+        <div class="hero-pillars-grid">
+          <div class="pillar-card interactive-pillar" data-target="#experience" title="Hover to view mobile architecture experience">
+            <span class="pillar-num">01 / Systems</span>
+            <h4 class="pillar-title">Mobile & 3-Tier Architecture</h4>
+            <p class="pillar-desc">RFC standards, type-safe navigation, and modular domain scaling at NirveonX.</p>
+          </div>
+          <div class="pillar-card interactive-pillar" data-target="#work" title="Hover to view CareBridge & CoHabit projects">
+            <span class="pillar-num">02 / Intelligence</span>
+            <h4 class="pillar-title">Compassionate AI Workflows</h4>
+            <p class="pillar-desc">Oncology care coordination (CareBridge) & conversational allocation (CoHabit).</p>
+          </div>
+          <div class="pillar-card interactive-pillar" data-target="#work" title="Hover to view retail forecasting project">
+            <span class="pillar-num">03 / Analytics</span>
+            <h4 class="pillar-title">Empirical Modeling & Math</h4>
+            <p class="pillar-desc">421K+ records demand forecasting (8.53% WMAPE) & OR-Tools constraint solving.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: SELECTED WORKS (ARCHITECTURAL & PROGRESSIVE DISCLOSURE) -->
+    <section class="section-container" id="work">
+      <div class="section-header-flex">
+        <div>
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Portfolio of Artifacts</span>
+          </div>
+          <h2 class="section-title">Selected Works</h2>
+          <p class="section-subtitle">
+            Every project represents a deliberate choice: solving real friction with clean code, empathetic design, and measurable architectural reliability.
+          </p>
+        </div>
+
+        <!-- Filter Chips for Peaceful Exploring -->
+        <div class="filter-group" role="tablist" aria-label="Project Categories">
+          <button class="filter-chip active" data-filter="all" role="tab" aria-selected="true">All Works (3)</button>
+          <button class="filter-chip" data-filter="care" role="tab" aria-selected="false">Healthcare & Society</button>
+          <button class="filter-chip" data-filter="optimization" role="tab" aria-selected="false">AI & Optimization</button>
+          <button class="filter-chip" data-filter="data" role="tab" aria-selected="false">Data & Forecast</button>
+        </div>
+      </div>
+
+      <div class="projects-list">
+
+        <!-- PROJECT 1: CareBridge AI -->
+        <article class="project-card" data-category="care">
+          <div class="project-header">
+            <div class="project-meta">
+              <span class="badge badge-sage">Healthcare & Generative AI</span>
+              <span class="project-date">September 2026</span>
+            </div>
+            <h3 class="project-name">CareBridge AI</h3>
+            <p class="project-subhead">Post-Discharge Oncology Care Coordination Platform</p>
+          </div>
+
+          <p class="project-narrative">
+            Discharge instructions following oncology treatments are often dense, frightening, and cognitively overwhelming for vulnerable patients and their families. <strong>CareBridge AI</strong> acts as a compassionate translator, structuring chaotic discharge paperwork into actionable, reassuring <em>What, Why, Where, and When</em> daily care guides.
+          </p>
+
+          <div class="project-architecture-preview">
+            <div class="arch-col">
+              <span class="arch-label">The Human Problem</span>
+              <p class="arch-value">Medical jargon and stress lead to missed medication windows and post-chemo complications.</p>
+            </div>
+            <div class="arch-col">
+              <span class="arch-label">Architectural Solution</span>
+              <p class="arch-value">Multilingual LLM pipeline with patient, caregiver, and clinician portals & coordinator closure queue.</p>
+            </div>
+            <div class="arch-col">
+              <span class="arch-label">Core Impact</span>
+              <p class="arch-value">Transforms hospital discharge confusion into a tranquil step-by-step recovery compass.</p>
+            </div>
+          </div>
+
+          <!-- Deep-dive disclosure drawer -->
+          <details class="project-details">
+            <summary class="details-toggle">
+              <span class="summary-text">View System Blueprint & Key Milestones</span>
+              <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="details-content">
+              <div class="details-grid">
+                <div class="details-box">
+                  <h4 class="details-box-title">Key Engineering Implementations</h4>
+                  <ul>
+                    <li>Constructed unified role-based portals for patients, family caregivers, and clinical coordinators.</li>
+                    <li>Integrated real-time assistance request workflows with automatic escalation for unresolved care tasks.</li>
+                    <li>Designed multilingual parsing engines ensuring accessibility across diverse linguistic backgrounds.</li>
+                  </ul>
+                </div>
+                <div class="details-box">
+                  <h4 class="details-box-title">Technical Architecture</h4>
+                  <ul>
+                    <li><strong>Frontend:</strong> React, Tailwind CSS (gentle high-contrast typography, accessible color scales).</li>
+                    <li><strong>Backend:</strong> FastAPI, Python 3.13, PostgreSQL relational schema.</li>
+                    <li><strong>Intelligence:</strong> Generative AI parsing pipelines with verified safety guardrails.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <div class="project-footer">
+            <div class="tech-tags">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Generative AI</span>
+            </div>
+            <a href="https://github.com/Jiteshreddy123" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View CareBridge AI on GitHub">
+              <span>View Source</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: CoHabit AI -->
+        <article class="project-card" data-category="optimization">
+          <div class="project-header">
+            <div class="project-meta">
+              <span class="badge badge-peach">Combinatorial AI & Optimization</span>
+              <span class="project-date">July 2026</span>
+            </div>
+            <h3 class="project-name">CoHabit AI</h3>
+            <p class="project-subhead">AI-Driven Roommate Allocation & Compatibility Engine</p>
+          </div>
+
+          <p class="project-narrative">
+            Living with the wrong roommate creates chronic stress for university students. Traditional forms fail to capture authentic human personality. <strong>CoHabit AI</strong> introduces warm conversational interviews powered by Google Gemini to elicit genuine sleep rhythms, study habits, and personal values, and then applies mathematical constraint programming to discover optimal, harmonious pairs.
+          </p>
+
+          <div class="project-architecture-preview">
+            <div class="arch-col">
+              <span class="arch-label">The Human Problem</span>
+              <p class="arch-value">Arbitrary room assignments cause conflict, alienation, and poor academic wellness.</p>
+            </div>
+            <div class="arch-col">
+              <span class="arch-label">Architectural Solution</span>
+              <p class="arch-value">Gemini dialogue extraction + Google OR-Tools constraint satisfaction solver.</p>
+            </div>
+            <div class="arch-col">
+              <span class="arch-label">Scalability</span>
+              <p class="arch-value">Successfully resolved allocations across hundreds of multi-constraint student profiles.</p>
+            </div>
+          </div>
+
+          <!-- Deep-dive disclosure drawer -->
+          <details class="project-details">
+            <summary class="details-toggle">
+              <span class="summary-text">View System Blueprint & Key Milestones</span>
+              <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="details-content">
+              <div class="details-grid">
+                <div class="details-box">
+                  <h4 class="details-box-title">Key Engineering Implementations</h4>
+                  <ul>
+                    <li>Designed an engaging conversational interview UX that students actually enjoy completing.</li>
+                    <li>Built an administrative dashboard enabling university wardens to audit AI transcripts and fine-tune constraint weights.</li>
+                    <li>Formulated complex constraints (sleep schedules, study environment preferences, hygiene tolerances) into Google OR-Tools CP-SAT models.</li>
+                  </ul>
+                </div>
+                <div class="details-box">
+                  <h4 class="details-box-title">Technical Architecture</h4>
+                  <ul>
+                    <li><strong>Frontend:</strong> React, Tailwind CSS, real-time interview progress states.</li>
+                    <li><strong>Backend:</strong> Python, FastAPI, PostgreSQL relational database.</li>
+                    <li><strong>Optimization & Models:</strong> Google Gemini API, Google OR-Tools Constraint Programming.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <div class="project-footer">
+            <div class="tech-tags">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Google Gemini</span>
+              <span class="tech-tag">Google OR-Tools</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Python</span>
+            </div>
+            <a href="https://github.com/Jiteshreddy123" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View CoHabit AI on GitHub">
+              <span>View Source</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: Retail Demand Intelligence & Forecasting -->
+        <article class="project-card" data-category="data">
+          <div class="project-header">
+            <div class="project-meta">
+              <span class="badge badge-amber">Data Engineering & Machine Learning</span>
+              <span class="project-date">August 2026</span>
+            </div>
+            <h3 class="project-name">Retail Demand Intelligence</h3>
+            <p class="project-subhead">High-Scale Forecasting Pipeline & Gemini-Powered Insights</p>
+          </div>
+
+          <p class="project-narrative">
+            Accurate demand forecasting prevents food wastage and supply-chain shortages. This system orchestrates an end-to-end ETL and predictive analytics pipeline across <strong>421,000+ Walmart sales records</strong>, achieving an exceptional <strong>8.53% WMAPE</strong> and delivering natural-language business insights through Power BI and FastAPI.
+          </p>
+
+          <div class="project-architecture-preview">
+            <div class="arch-col">
+              <span class="arch-label">Dataset Volume</span>
+              <p class="arch-value">421,000+ transactional records ingested and normalized via PostgreSQL.</p>
+            </div>
+            <div class="arch-col">
+              <span class="arch-label">Model Precision</span>
+              <p class="arch-value">8.53% Weighted Mean Absolute Percentage Error (WMAPE).</p>
+            </div>
+            <div class="arch-col">
+              <span class="arch-label">Intelligence Layer</span>
+              <p class="arch-value">Automated executive summaries delivered via Google Gemini API.</p>
+            </div>
+          </div>
+
+          <!-- Deep-dive disclosure drawer -->
+          <details class="project-details">
+            <summary class="details-toggle">
+              <span class="summary-text">View System Blueprint & Key Milestones</span>
+              <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="details-content">
+              <div class="details-grid">
+                <div class="details-box">
+                  <h4 class="details-box-title">Key Engineering Implementations</h4>
+                  <ul>
+                    <li>Constructed high-throughput Pandas ETL scripts processing millions of data points with null-safety and indexing.</li>
+                    <li>Trained and tuned a <code>HistGradientBoostingRegressor</code> with cross-validation and hyperparameter search.</li>
+                    <li>Designed interactive Power BI business intelligence dashboards connected to FastAPI endpoints for real-time inference.</li>
+                  </ul>
+                </div>
+                <div class="details-box">
+                  <h4 class="details-box-title">Technical Architecture</h4>
+                  <ul>
+                    <li><strong>Languages & Core:</strong> Python, SQL, PostgreSQL.</li>
+                    <li><strong>Libraries:</strong> Scikit-learn, Pandas, NumPy, FastAPI.</li>
+                    <li><strong>Visualization & BI:</strong> Power BI, Google Gemini natural language layer.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <div class="project-footer">
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Scikit-learn</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Power BI</span>
+              <span class="tech-tag">Google Gemini</span>
+            </div>
+            <a href="https://github.com/Jiteshreddy123" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Retail Demand Intelligence on GitHub">
+              <span>View Source</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION: PROFESSIONAL EXPERIENCE -->
+    <section class="section-container" id="experience">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="tag-dot"></span>
+          <span>Industry Engineering</span>
+        </div>
+        <h2 class="section-title">Experience & Practice</h2>
+        <p class="section-subtitle">
+          Applying principled engineering hygiene, RFC methodologies, and type-safe systems in production environments.
+        </p>
+      </div>
+
+      <div class="experience-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Software Engineering Intern</h3>
+                <span class="company-name">NirveonX</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="tenure">September 2026 – Present</span>
+                <span class="location-badge">Remote</span>
+              </div>
+            </div>
+
+            <p class="role-summary">
+              Leading core architectural standards for the company's next-generation mobile platform.
+            </p>
+
+            <ul class="role-bullets">
+              <li>
+                <strong>Architectural RFC Authorship:</strong> Authored a Phase-0 technical RFC defining foundational mobile architecture, component isolation protocols, and directory conventions across 12+ feature domains.
+              </li>
+              <li>
+                <strong>Type-Safe Navigation:</strong> Designed and implemented a resilient 3-tier navigation hierarchy for the Master App using React Native 0.77, React Navigation v7, and TypeScript—preventing runtime routing crashes and guaranteeing strict screen param verification.
+              </li>
+              <li>
+                <strong>Modular Proof of Concept:</strong> Built and shipped a production-ready proof of concept spanning 5+ high-density screens, proving modular scalability and setting code-review benchmarks for the entire engineering cohort.
+              </li>
+            </ul>
+
+            <div class="tech-tags mt-4">
+              <span class="tech-tag">React Native 0.77</span>
+              <span class="tech-tag">React Navigation v7</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Technical RFCs</span>
+              <span class="tech-tag">Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: THE PHILOSOPHY / THE OPTIMIST'S COMPASS (Subtle indirect portrayal) -->
+    <section class="section-container" id="philosophy">
+      <div class="philosophy-wrapper">
+        <div class="philosophy-header">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Ethos & Principles</span>
+          </div>
+          <h2 class="section-title">The Quiet Optimist's Notebook</h2>
+          <p class="section-subtitle">
+            What we build reflects how we see the world. Here are the convictions that anchor my work.
+          </p>
+        </div>
+
+        <div class="philosophy-grid">
+          <!-- Principle 1 -->
+          <div class="philosophy-card">
+            <div class="philosophy-num">I.</div>
+            <h3 class="philosophy-heading">Software as an Act of Care</h3>
+            <p class="philosophy-text">
+              Code is never merely syntax or latency benchmarks; it directly shapes human emotions. When someone is leaving a hospital ward after chemotherapy or navigating the anxious transition to university life, software should act as a patient, gentle companion—not an obstacle course of confusing forms.
+            </p>
+          </div>
+
+          <!-- Principle 2 -->
+          <div class="philosophy-card">
+            <div class="philosophy-num">II.</div>
+            <h3 class="philosophy-heading">Faith in Better Tomorrows</h3>
+            <p class="philosophy-text">
+              I believe in forward momentum. Difficult systemic bottlenecks—whether in healthcare access, education, or logistics—are solvable when approached with patience, rigor, and deep good faith in human potential. Being an optimist is not ignoring flaws; it is choosing to engineer their remedies.
+            </p>
+          </div>
+
+          <!-- Principle 3 -->
+          <div class="philosophy-card">
+            <div class="philosophy-num">III.</div>
+            <h3 class="philosophy-heading">Simplicity as Deep Respect</h3>
+            <p class="philosophy-text">
+              True mastery is not showing off complexity; it is reducing cognitive burden for others. An architectural RFC should be clear enough that anyone can build upon it with confidence. An interface should never scream for attention when calm clarity will do.
+            </p>
+          </div>
+        </div>
+
+        <blockquote class="manifesto-quote">
+          <p>&ldquo;We build things not to prove how clever we are, but to leave people with a little more clarity, warmth, and peace of mind than we found them.&rdquo;</p>
+          <cite>— Personal Engineering Creed</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- SECTION: TECHNICAL ARSENAL & SKILLS -->
+    <section class="section-container" id="skills">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="tag-dot"></span>
+          <span>Tooling & Foundations</span>
+        </div>
+        <h2 class="section-title">Technical Arsenal</h2>
+        <p class="section-subtitle">
+          Core competencies cultivated across rigorous coursework, open-source building, and engineering internships.
+        </p>
+      </div>
+
+      <div class="skills-catalog">
+        <div class="skill-category-card">
+          <h4 class="skill-category-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Languages & Core CS
+          </h4>
+          <p class="skill-category-sub">First-principles thinking and algorithmic clarity.</p>
+          <div class="pill-cloud">
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">JavaScript / TypeScript</span>
+            <span class="skill-pill">Data Structures & Algorithms</span>
+            <span class="skill-pill">OOP</span>
+            <span class="skill-pill">DBMS</span>
+            <span class="skill-pill">Computer Networks</span>
+            <span class="skill-pill">Operating Systems</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <h4 class="skill-category-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            Development & Frameworks
+          </h4>
+          <p class="skill-category-sub">Building responsive client and server architectures.</p>
+          <div class="pill-cloud">
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">React Native 0.77</span>
+            <span class="skill-pill">Tailwind CSS</span>
+            <span class="skill-pill">FastAPI</span>
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">Express.js</span>
+            <span class="skill-pill">Flask</span>
+            <span class="skill-pill">RESTful API Design</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <h4 class="skill-category-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            Data, AI & Operations
+          </h4>
+          <p class="skill-category-sub">From statistical learning to applied language models.</p>
+          <div class="pill-cloud">
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">Google Gemini</span>
+            <span class="skill-pill">Generative AI</span>
+            <span class="skill-pill">Google OR-Tools</span>
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">Scikit-learn</span>
+            <span class="skill-pill">Power BI</span>
+            <span class="skill-pill">Git & GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: ACCOLADES & ACADEMICS -->
+    <section class="section-container" id="academics">
+      <div class="dual-column-layout">
+
+        <!-- Column 1: Honors & Competitions -->
+        <div class="col-box">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Competitive Distinctions</span>
+          </div>
+          <h3 class="box-title">Recognitions</h3>
+
+          <div class="accolades-list">
+            <div class="accolade-item">
+              <div class="accolade-badge">Top 6.7%</div>
+              <div class="accolade-info">
+                <h4 class="accolade-title">Adobe Hackathon</h4>
+                <p class="accolade-desc">Cleared Round 1, advancing to Round 2 among the top 6.7% out of <strong>300,000+ national participants</strong>.</p>
+              </div>
+            </div>
+
+            <div class="accolade-item">
+              <div class="accolade-badge">Round Alpha</div>
+              <div class="accolade-info">
+                <h4 class="accolade-title">CodeFusion 2026</h4>
+                <p class="accolade-desc">Qualified for Round Alpha in HackerRank's premier national algorithmic coding competition.</p>
+              </div>
+            </div>
+
+            <div class="accolade-item">
+              <div class="accolade-badge">Top 1,000</div>
+              <div class="accolade-info">
+                <h4 class="accolade-title">Hack With Hyderabad</h4>
+                <p class="accolade-desc">Secured a Top 1,000 rank, placing in the top 33% among 3,000+ highly competitive participating teams.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Academic Foundations -->
+        <div class="col-box">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Academic Rigor</span>
+          </div>
+          <h3 class="box-title">Education</h3>
+
+          <div class="education-card">
+            <div class="edu-top">
+              <div>
+                <h4 class="degree-title">B.Tech in Computer Science & Data Science</h4>
+                <span class="institution-name">ACE Engineering College, Hyderabad</span>
+              </div>
+              <div class="cgpa-pill">
+                <span class="cgpa-num">9.06</span>
+                <span class="cgpa-denom">/ 10 CGPA</span>
+              </div>
+            </div>
+
+            <div class="edu-meta">
+              <span>Expected Graduation: 2028</span>
+              <span>&bull;</span>
+              <span>Hyderabad, Telangana</span>
+            </div>
+
+            <p class="edu-desc">
+              Focusing on foundational theoretical computer science, machine learning architectures, mathematical statistics, and distributed relational systems. Consistent top-tier academic performance coupled with active engineering internships.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: CONTACT & DIALOGUE -->
+    <section class="section-container" id="contact">
+      <div class="contact-card">
+        <div class="contact-header">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+            <span>Begin a Conversation</span>
+          </div>
+          <h2 class="contact-title">Let’s build something thoughtful together.</h2>
+          <p class="contact-subtitle">
+            Whether you want to discuss a new software architecture, collaborate on a meaningful AI project, or simply exchange ideas over good design and engineering ethics—my inbox is always open.
+          </p>
+        </div>
+
+        <div class="contact-methods">
+          <div class="contact-pill-item">
+            <span class="contact-pill-label">Direct Email</span>
+            <div class="contact-action-row">
+              <a href="mailto:mail4y.jitesh@gmail.com" class="contact-value">mail4y.jitesh@gmail.com</a>
+              <button class="copy-icon-btn copy-email-btn" data-email="mail4y.jitesh@gmail.com" title="Copy email address" aria-label="Copy email address">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="contact-pill-item">
+            <span class="contact-pill-label">Phone</span>
+            <div class="contact-action-row">
+              <a href="tel:+918919733611" class="contact-value">+91 89197 33611</a>
+            </div>
+          </div>
+
+          <div class="contact-pill-item">
+            <span class="contact-pill-label">Professional Network</span>
+            <div class="contact-action-row">
+              <a href="https://linkedin.com/in/jiteshreddy" target="_blank" rel="noopener noreferrer" class="contact-value link-with-arrow">
+                <span>linkedin.com/in/jiteshreddy</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-pill-item">
+            <span class="contact-pill-label">Open Source Repositories</span>
+            <div class="contact-action-row">
+              <a href="https://github.com/Jiteshreddy123" target="_blank" rel="noopener noreferrer" class="contact-value link-with-arrow">
+                <span>github.com/Jiteshreddy123</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="quick-note-box">
+          <p class="quick-note-text">
+            Prefer a direct message right now?
+          </p>
+          <a href="mailto:mail4y.jitesh@gmail.com?subject=Hello%20Jitesh%20%E2%80%94%20Connecting%20from%20Portfolio" class="btn btn-primary">
+            Send an Email
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- REFINED ARCHITECTURAL FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <span class="footer-brand">Y. Jitesh Reddy</span>
+        <span class="footer-tagline">Crafted with care, quiet optimism, and pastel serenity.</span>
+      </div>
+      <div class="footer-right">
+        <span>&copy; <span id="currentYear">2026</span> &bull; Hyderabad, India</span>
+        <a href="#hero" class="back-to-top" aria-label="Scroll back to top">
+          <span>Top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container for Copied Email -->
+  <div class="toast" id="toastNotification" role="alert" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toastMessage">Email address copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
