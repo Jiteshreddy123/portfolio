@@ -52,27 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Hero Pillar Cards (hover or click to glide into corresponding sections)
-  const interactivePillars = document.querySelectorAll('.interactive-pillar');
-  interactivePillars.forEach(pillar => {
-    let hoverTimer = null;
-    const target = pillar.getAttribute('data-target');
-    if (target) {
-      pillar.addEventListener('mouseenter', () => {
-        hoverTimer = setTimeout(() => {
-          scrollToTarget(target);
-        }, 220);
-      });
-      pillar.addEventListener('mouseleave', () => {
-        if (hoverTimer) clearTimeout(hoverTimer);
-      });
-      pillar.addEventListener('click', () => {
-        if (hoverTimer) clearTimeout(hoverTimer);
-        scrollToTarget(target);
-      });
-    }
-  });
-
   // 4. Project Filtering System (Care, Optimization, Data, All)
   const filterChips = document.querySelectorAll('.filter-chip');
   const projectCards = document.querySelectorAll('.project-card');
